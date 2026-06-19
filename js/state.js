@@ -38,7 +38,7 @@ const PROJECTS = [
     contributors: [
       { name: 'Shivam Kumar Jha', github: 'sjha66556-ops' }
     ],
-    url: '#'
+    url: 'https://sjha66556-ops.github.io/The-Team-Agency-Portfolio/'
   },
   {
     title: 'Interactive Quiz App',
