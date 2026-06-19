@@ -48,7 +48,7 @@ const PROJECTS = [
     contributors: [
       { name: 'Dhireena Banu', github: 'dhireenabanu7-wq' }
     ],
-    url: '#'
+    url: 'https://dhireenabanu7-wq.github.io/Interactive-Quiz-Project/'
   },
   {
     title: 'Expense Tracker',
