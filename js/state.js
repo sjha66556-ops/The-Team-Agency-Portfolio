@@ -90,7 +90,7 @@ const PROJECTS = [
       { name: 'Shivam Kumar Jha', github: 'sjha66556-ops' },
       { name: 'Dhireena Banu', github: 'dhireenabanu7-wq' }
     ],
-    url: '#'
+    url: 'https://sjha66556-ops.github.io/Kanban-Task-Board/'
   }
 ];
 
