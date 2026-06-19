@@ -83,7 +83,11 @@ export async function fetchGithubProfile(member, triggerUpdateCallback = null) {
 
   // First time or no cache: fetch synchronously
   try {
-    return await fetchProfileFromNetwork(member);
+    const profile = await fetchProfileFromNetwork(member);
+    if (triggerUpdateCallback) {
+      triggerUpdateCallback(member.github, profile);
+    }
+    return profile;
   } catch (error) {
     if (error.message === 'rate-limit') {
       window.dispatchEvent(new CustomEvent('github-api-rate-limited', {
