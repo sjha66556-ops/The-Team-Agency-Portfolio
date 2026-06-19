@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Team Agency Portfolio Studio</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="topbar">
+            <div class="brand">
+                <span class="brand-mark" aria-hidden="true">T</span>
+                <div>
+                    <p class="eyebrow">The Team Agency</p>
+                    <h1>Portfolio Studio</h1>
+                </div>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" aria-pressed="false">
+                <span id="themeIcon" aria-hidden="true">🌙</span>
+                <span>Theme</span>
+            </button>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero" id="hero" aria-labelledby="hero-title">
+                <div class="hero-copy">
+                    <p class="eyebrow">Data-Driven Creative Collective</p>
+                    <h2 id="hero-title">Design, build, and launch digital experiences together.</h2>
+                    <p class="hero-desc">We blend product strategy, frontend craftsmanship, and GitHub-backed
+                        engineering to move ideas into market-ready products.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">Explore projects</a>
+                        <a class="button button-secondary" href="#team">Meet the team</a>
+                    </div>
+                </div>
+                <div class="hero-preview">
+                    <div class="stats-card">
+                        <div class="stat-item">
+                            <strong>4</strong>
+                            <span>team members</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <strong>6</strong>
+                            <span>featured projects</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <strong>100%</strong>
+                            <span>accessible layout</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="section intro" id="team" aria-labelledby="team-title">
+                <div class="section-head">
+                    <p class="eyebrow">Meet the builders</p>
+                    <h2 id="team-title">Creative specialists with modern tooling.</h2>
+                </div>
+                <div id="teamGrid" class="card-grid"></div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section showcase" id="projects" aria-labelledby="projects-title">
+                <div class="section-head">
+                    <p class="eyebrow">Project showcase</p>
+                    <h2 id="projects-title">Responsive launches and strategic experiences.</h2>
+                </div>
+                <div id="projectGrid" class="project-grid"></div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section" id="contact" aria-labelledby="contact-title">
+                <div class="section-head">
+                    <p class="eyebrow">Get in touch</p>
+                    <h2 id="contact-title">Let's build something together.</h2>
+                </div>
+                <div class="contact-panel">
+                    <form id="contactForm" novalidate>
+                        <div class="form-grid">
+                            <label for="name">
+                                Name
+                                <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name"
+                                    aria-required="true" />
+                                <span class="field-error" data-error-for="name" role="alert"></span>
+                            </label>
+                            <label for="email">
+                                Email
+                                <input id="email" name="email" type="email" placeholder="you@example.com"
+                                    autocomplete="email" aria-required="true" />
+                                <span class="field-error" data-error-for="email" role="alert"></span>
+                            </label>
+                            <label for="message" class="full-width">
+                                Message
+                                <textarea id="message" name="message" rows="5" placeholder="Tell us about your project…"
+                                    aria-required="true"></textarea>
+                                <span class="field-error" data-error-for="message" role="alert"></span>
+                            </label>
+                        </div>
+                        <div class="form-actions">
+                            <button class="button button-primary" type="submit">Send message</button>
+                            <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+                        </div>
+                    </form>
+                    <aside class="contact-side">
+                        <div class="contact-info-block">
+                            <p class="contact-side-title">Reach us directly</p>
+                            <p>Have a project idea or collaboration in mind? Drop us a message and we'll get back to you
+                                promptly.</p>
+                        </div>
+                        <div class="theme-note">
+                            <span class="note-icon">💡</span>
+                            <p>Your theme preference is saved automatically. Toggle anytime using the button in the
+                                header.</p>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
