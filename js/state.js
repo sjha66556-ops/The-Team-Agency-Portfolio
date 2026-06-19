@@ -3,29 +3,25 @@ const TEAM_MEMBERS = [
     name: 'Shivam Kumar Jha',
     title: 'Full Stack Developer',
     github: 'sjha66556-ops',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Node.js'],
-    fallbackAvatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80'
+    skills: ['HTML', 'CSS', 'JavaScript', 'Java'],
   },
   {
     name: 'Dhireena Banu',
     title: 'Frontend Developer',
     github: 'dhireenabanu7-wq',
     skills: ['React', 'UI Animation', 'Responsive Design', 'Tailwind'],
-    fallbackAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80'
   },
   {
     name: 'Khushi Munna Kumar Agarwal',
     title: 'Product Designer',
     github: 'Khushi-agarwal1401',
     skills: ['UX Research', 'Design Systems', 'Prototyping', 'Figma'],
-    fallbackAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80'
   },
   {
     name: 'Radheshyam Bhati',
     title: 'Developer & Architect',
     github: 'radheshyam-cod',
     skills: ['API Integration', 'Performance Tuning', 'System Design', 'Vanilla JS'],
-    fallbackAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80'
   }
 ];
 
