@@ -3,7 +3,7 @@ const TEAM_MEMBERS = [
     name: 'Shivam Kumar Jha',
     title: 'Full Stack Developer',
     github: 'sjha66556-ops',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Node.js']
+    skills: ['HTML', 'CSS', 'JavaScript', 'Node.js'],
     fallbackAvatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80'
   },
   {
